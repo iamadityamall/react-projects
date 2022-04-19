@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-center items-center font-mono space-x-10 bg-[#F5F5F5]">
+    <nav className="flex justify-center items-center font-mono space-x-10 bg-[#F5F5F5] p-8">
       <NavLink
         to="projects"
         style={({ isActive }) => {
