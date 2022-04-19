@@ -11,7 +11,7 @@ const Navbar = () => {
             backgroundColor: isActive ? "rgba(0,0,0,0.4)" : "",
           };
         }}
-        className="p-4 text-2xl border-2 border-black"
+        className="p-4 text-xl border-2 border-black"
       >
         Projects
       </NavLink>
@@ -22,7 +22,7 @@ const Navbar = () => {
             backgroundColor: isActive ? "rgba(0,0,0,0.4)" : "",
           };
         }}
-        className="p-4 text-2xl border-2 border-black"
+        className="p-4 text-xl border-2 border-black"
       >
         Concepts
       </NavLink>
