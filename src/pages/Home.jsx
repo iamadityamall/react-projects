@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 const Home = () => {
   return (
     <>
-      <section className="h-[80vh] bg-[#F5F5F5] flex flex-col justify-center items-center px-10 font-mono lg:flex-row">
+      <section className="h-[75vh] bg-[#F5F5F5] flex flex-col justify-center items-center px-10 font-mono lg:flex-row">
         <div className="space-y-10 lg:w-[40vw] lg:p-3">
           <h1 className="text-4xl xl:text-6xl">React Projects</h1>
           <p className="text-xl leading-relaxed">
