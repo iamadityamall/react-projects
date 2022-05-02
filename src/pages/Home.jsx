@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 const Home = () => {
   return (
     <>
-      <section className="h-[75vh] bg-[#F5F5F5] flex flex-col justify-center items-center px-10 font-mono lg:flex-row lg:space-x-5">
+      <section className="h-[70vh] bg-[#F5F5F5] flex flex-col justify-center items-center px-10 font-mono lg:flex-row lg:space-x-5">
         <div className="space-y-10 lg:w-[50vw] lg:p-3">
           <h1 className="text-4xl xl:text-6xl">React Projects</h1>
           <p className="text-xl leading-relaxed">
@@ -17,7 +17,7 @@ const Home = () => {
             Join the course{" "}
           </button> */}
         </div>
-        <div className="hidden xl:flex xl:w-[30vw]">
+        <div className="hidden xl:flex xl:w-[25vw]">
           <img
             src="https://www.kindpng.com/picc/m/370-3704903_programmer-illustration-hd-png-download.png"
             alt="web-dev"

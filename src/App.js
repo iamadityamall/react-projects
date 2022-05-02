@@ -9,7 +9,9 @@ import { useEffect } from "react";
 const App = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#F5F5F5";
+    document.title = "react-projects";
   }, [])
+  
   return (
     <Router>
       <Routes>
