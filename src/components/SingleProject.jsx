@@ -1,7 +1,7 @@
 import React from "react";
 
 const SingleProject = ({data}) => {
-  const {name, image, info} = data;
+  const {name, info} = data;
   console.log(name);
   return (
     <article className="flex">
