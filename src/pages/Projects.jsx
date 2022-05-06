@@ -5,11 +5,10 @@ import { useEffect } from 'react';
 
 const Projects = () => {
   useEffect(() => {
-    document.body.style.backgroundColor = "#E8F9FD";
     document.title = "react-projects";
   }, []);
 
-  return <section>
+  return <section className='grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 md:grid-cols-3 items-center py-20 px-10'>
     {projects.map((data) => {
       return <SingleProject data={data} key={data.id}/>
     })}

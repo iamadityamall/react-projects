@@ -1,25 +1,25 @@
 export const projects = [
   {
     id: 0,
-    name: "project 01",
+    name: "Birthday Reminder",
     image: "",
     info: "Projects are the most practical way to learn any language, and React is no exception. Solidify your knowledge of React by creating these cool projects.",
   },
   {
     id: 1,
-    name: "project 02",
+    name: "Tours",
     image: "",
     info: "Projects are the most practical way to learn any language, and React is no exception. Solidify your knowledge of React by creating these cool projects.",
   },
   {
     id: 2,
-    name: "project 03",
+    name: "Reviews",
     image: "",
     info: "Projects are the most practical way to learn any language, and React is no exception. Solidify your knowledge of React by creating these cool projects.",
   },
   {
     id: 3,
-    name: "project 04",
+    name: "Accordion",
     image: "",
     info: "Projects are the most practical way to learn any language, and React is no exception. Solidify your knowledge of React by creating these cool projects.",
   },
