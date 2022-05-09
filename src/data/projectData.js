@@ -5,7 +5,7 @@ export const projects = [
     id: 0,
     name: "Birthday Reminder",
     image: {link01},
-    info: "Projects are the most practical way to learn any language, and React is no exception. Solidify your knowledge of React by creating these cool projects.",
+    info: "Utilized useState hook with map array method for iterating data. enabled reset button when length of birthdays equaled to one use conditional rendering.",
     link: "https://rp-birthday-reminder-ui.netlify.app/",
   },
   {
