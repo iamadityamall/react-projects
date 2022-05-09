@@ -1,7 +1,7 @@
 import React from "react";
 
 const SingleProject = ({ data }) => {
-  const { name, info, link } = data;
+  const { name, info, link, image } = data;
   console.log(name);
   return (
     <a
@@ -11,7 +11,7 @@ const SingleProject = ({ data }) => {
       className="flex flex-col"
     >
       <img
-        src="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?fit=crop&format=jpg&crop=4560,2565,x790,y784,safe"
+        src={image}
         alt={name}
         className="w-full object-cover"
       />
