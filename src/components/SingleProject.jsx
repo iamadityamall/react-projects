@@ -15,9 +15,9 @@ const SingleProject = ({ data }) => {
         alt={name}
         className="w-full object-cover h-48"
       />
-      <div className="flex flex-col p-2 bg-slate-300">
+      <div className="flex flex-col p-4 bg-slate-300">
         <h4 className="font-bold">{name}</h4>
-        <p className="pt-2">{info}</p>
+        <p className="pt-2 h-full">{info}</p>
       </div>
     </a>
   );

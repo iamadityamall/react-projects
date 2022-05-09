@@ -13,7 +13,8 @@ export const projects = [
     id: 1,
     name: "Github Users",
     image: link02,
-    info: "fetched github users using async await in useEffect hooks with empty dependency to run it only on its first render.(https://api.github.com/users)",
+    info: "fetched data through api, using async await in useEffect hooks with empty dependency to run it only on its first render.(https://api.github.com/users)",
+    link: "https://rp-github-users.netlify.app/",
   },
   {
     id: 2,
