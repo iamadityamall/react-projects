@@ -1,8 +1,10 @@
+import link01 from "../images/rp-01-birthday-reminder-ui.png"
+
 export const projects = [
   {
     id: 0,
     name: "Birthday Reminder",
-    image: "",
+    image: {link01},
     info: "Projects are the most practical way to learn any language, and React is no exception. Solidify your knowledge of React by creating these cool projects.",
     link: "https://rp-birthday-reminder-ui.netlify.app/",
   },
