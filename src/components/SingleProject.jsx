@@ -1,11 +1,11 @@
 import React from "react";
 
 const SingleProject = ({ data }) => {
-  const { name, info } = data;
+  const { name, info, link } = data;
   console.log(name);
   return (
     <a
-      href="https://www.google.com"
+      href={link}
       target="_blank"
       rel="noreferrer"
       className="flex flex-col"

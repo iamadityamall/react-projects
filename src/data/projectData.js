@@ -4,6 +4,7 @@ export const projects = [
     name: "Birthday Reminder",
     image: "",
     info: "Projects are the most practical way to learn any language, and React is no exception. Solidify your knowledge of React by creating these cool projects.",
+    link: "https://rp-birthday-reminder-ui.netlify.app/",
   },
   {
     id: 1,
