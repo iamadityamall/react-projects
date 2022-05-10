@@ -1,7 +1,8 @@
 import link01 from "../images/rp-01-birthday-reminder-ui.png";
-import link02 from "../images/rp-02-github-users.png"
-import link03 from "../images/rp-03-tours-card.png"
-import link04 from "../images/rp-04-reviews.png"
+import link02 from "../images/rp-02-github-users.png";
+import link03 from "../images/rp-03-tours-card.png";
+import link04 from "../images/rp-04-reviews.png";
+import link05 from "../images/rp-05-accordion.png";
 
 export const projects = [
   {
@@ -31,5 +32,12 @@ export const projects = [
     image: link04,
     info: "Here useState is used to change the reviews when clicked on the previous and next button. Using math random method we generated random indexes to populate the reviews.",
     link: "https://rp-reviews.netlify.app/",
+  },
+  {
+    id: 4,
+    name: "Accordion",
+    image: link05,
+    info: "Basic question and answer accordion, made with conditionally rendering to display answers on demand. Data fetched is locally stored and iterated in reuseable component singlequestion.",
+    link: "https://rp-accordion.netlify.app/",
   },
 ];
