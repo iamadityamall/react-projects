@@ -1,6 +1,7 @@
 import link01 from "../images/rp-01-birthday-reminder-ui.png";
 import link02 from "../images/rp-02-github-users.png"
 import link03 from "../images/rp-03-tours-card.png"
+import link04 from "../images/rp-04-reviews.png"
 
 export const projects = [
   {
@@ -19,15 +20,16 @@ export const projects = [
   },
   {
     id: 2,
-    name: "Reviews",
+    name: "Tours Card",
     image: link03,
     info: "Used conditional rendering for read more and show less. implemented try and catch method for fetching the data from api, and passed functions through prop drilling.",
     link: "https://rp-tours-card.netlify.app/",
   },
   {
     id: 3,
-    name: "Accordion",
-    image: "",
-    info: "Projects are the most practical way to learn any language, and React is no exception. Solidify your knowledge of React by creating these cool projects.",
+    name: "Reviews",
+    image: link04,
+    info: "Here useState is used to change the reviews when clicked on the previous and next button. Using math random method we generated random indexes to populate the reviews.",
+    link: "https://rp-reviews.netlify.app/",
   },
 ];
