@@ -3,6 +3,7 @@ import link02 from "../images/rp-02-github-users.png";
 import link03 from "../images/rp-03-tours-card.png";
 import link04 from "../images/rp-04-reviews.png";
 import link05 from "../images/rp-05-accordion.png";
+import link06 from "../images/rp-06-lorem-ipsusm.png";
 
 export const projects = [
   {
@@ -39,5 +40,12 @@ export const projects = [
     image: link05,
     info: "Basic question and answer accordion, made with conditionally rendering to display answers on demand. Data fetched is locally stored and iterated in reuseable component singlequestion.",
     link: "https://rp-accordion.netlify.app/",
+  },
+  {
+    id: 4,
+    name: "Lorem Ipsum Generator",
+    image: link06,
+    info: "Lorem ipsum generator made out from data fetched locally from data.js. added features include a modal which falls down when paragraph number is negative or more than paragraph available (9).",
+    link: "https://rp-lorem-ipsum.netlify.app/",
   },
 ];
