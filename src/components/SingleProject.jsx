@@ -8,14 +8,14 @@ const SingleProject = ({ data }) => {
       href={link}
       target="_blank"
       rel="noreferrer"
-      className="flex flex-col shadow-lg"
+      className="flex flex-col shadow-lg w-96"
     >
       <img
         src={image}
         alt={name}
-        className="w-full object-cover h-48"
+        className="w-full object-cover h-32"
       />
-      <div className="flex flex-col p-4 bg-slate-300">
+      <div className="flex flex-col p-4 bg-slate-300 h-full">
         <h4 className="font-bold">{name}</h4>
         <p className="pt-2 h-full">{info}</p>
       </div>
