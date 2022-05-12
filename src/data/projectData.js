@@ -31,7 +31,7 @@ export const projects = [
     id: 3,
     name: "Reviews",
     image: link04,
-    info: "useState is used to change the reviews when clicked on the previous and next button. Using math random method we generated random indexes to populate the reviews.",
+    info: "useState is used to change the reviews and math random method we generated random indexes to populate the reviews.",
     link: "https://rp-reviews.netlify.app/",
   },
   {
