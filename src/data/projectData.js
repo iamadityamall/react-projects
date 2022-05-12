@@ -4,6 +4,7 @@ import link03 from "../images/rp-03-tours-card.png";
 import link04 from "../images/rp-04-reviews.png";
 import link05 from "../images/rp-05-accordion.png";
 import link06 from "../images/rp-06-lorem-ipsusm.png";
+import link07 from "../images/rp-07-color-generator.png"
 
 export const projects = [
   {
@@ -42,10 +43,17 @@ export const projects = [
     link: "https://rp-accordion.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "Lorem Ipsum Generator",
     image: link06,
     info: "Lorem ipsum generator made out from data fetched locally from data.js. added features include a modal which falls down when paragraph number is negative or more than paragraph available (9).",
     link: "https://rp-lorem-ipsum.netlify.app/",
+  },
+  {
+    id: 6,
+    name: "color Generator",
+    image: link07,
+    info: "using value.js npm package, different shades of the color is displayed. used web api of copy to clipboard when a color is clicked.",
+    link: "https://rp-color-generator.netlify.app/",
   },
 ];

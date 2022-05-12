@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const SingleProject = ({ data }) => {
   const { name, info, link, image } = data;
   console.log(name);
@@ -8,7 +9,7 @@ const SingleProject = ({ data }) => {
       href={link}
       target="_blank"
       rel="noreferrer"
-      className="flex flex-col shadow-lg w-96"
+      className="flex flex-col w-96 rounded-lg"
     >
       <img
         src={image}
