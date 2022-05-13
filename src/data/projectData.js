@@ -5,6 +5,7 @@ import link04 from "../images/rp-04-reviews.png";
 import link05 from "../images/rp-05-accordion.png";
 import link06 from "../images/rp-06-lorem-ipsusm.png";
 import link07 from "../images/rp-07-color-generator.png"
+import link08 from "../images/rp-08-menu.png";
 
 export const projects = [
   {
@@ -55,5 +56,19 @@ export const projects = [
     image: link07,
     info: "using value.js npm package, different shades of the color is displayed. used web api of copy to clipboard when a color is clicked.",
     link: "https://rp-color-generator.netlify.app/",
+  },
+  {
+    id: 6,
+    name: "color Generator",
+    image: link07,
+    info: "using value.js npm package, different shades of the color is displayed. used web api of copy to clipboard when a color is clicked.",
+    link: "https://rp-color-generator.netlify.app/",
+  },
+  {
+    id: 7,
+    name: "Menu filter",
+    image: link08,
+    info: "filterd category using Set object where unique values are filterd. Implementd custom filter function to display filterd menu items based on category.",
+    link: "https://rp-menu.netlify.app/",
   },
 ];
