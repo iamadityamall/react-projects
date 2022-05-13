@@ -64,4 +64,11 @@ export const projects = [
     info: "filterd category using Set object where unique values are filterd. Implementd custom filter function to display filterd menu items based on category.",
     link: "https://rp-menu.netlify.app/",
   },
+  {
+    id: 8,
+    name: "Menu filter",
+    image: link08,
+    info: "filterd category using Set object where unique values are filterd. Implementd custom filter function to display filterd menu items based on category.",
+    link: "https://rp-menu.netlify.app/",
+  },
 ];
