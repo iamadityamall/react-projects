@@ -79,6 +79,6 @@ export const projects = [
     name: "Grocery budget tracker",
     image: link10,
     info: "Used browser api, localstorage to setitem and getItem when page reloads to maintain the records in a session. edited recorded by matching editid of record with maping through list.id.",
-    link: "https://rp-grocery-budget-tracker.app/",
+    link: "https://rp-grocery-budget-tracker.netlify.app/",
   },
 ];
