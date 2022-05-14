@@ -7,6 +7,7 @@ import link06 from "../images/rp-06-lorem-ipsusm.png";
 import link07 from "../images/rp-07-color-generator.png"
 import link08 from "../images/rp-08-menu.png";
 import link09 from "../images/rp-09-tabs.png"
+import link10 from "../images/rp-10-grocery-budget-tracker.png";
 
 export const projects = [
   {
@@ -72,5 +73,12 @@ export const projects = [
     image: link09,
     info: "in this experience tab, data fetched through api is shown with tabs. click on specific job title and the related data is generated dynamically.",
     link: "https://rp-tabs.netlify.app/",
+  },
+  {
+    id: 9,
+    name: "Grocery budget tracker",
+    image: link10,
+    info: "Used browser api, localstorage to setitem and getItem when page reloads to maintain the records in a session. edited recorded by matching editid of record with maping through list.id.",
+    link: "https://rp-grocery-budget-tracker.app/",
   },
 ];
